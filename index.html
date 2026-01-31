@@ -1,0 +1,157 @@
+<html> 
+<head>
+<meta charset='UTF-8'>
+
+
+        <style>
+                 @keyframes fall{
+
+                      0%{
+                             transform:translateY(0);
+                             opacity:0.5;
+                             
+                      }
+
+                          100%{ 
+                               transform:translateY(calc(170vh - 0px) );
+                                 
+                                 
+                            opacity:0.5;
+                            }
+
+                        
+
+                     }
+
+
+              
+               
+               
+               
+               
+           
+
+               
+
+
+
+
+
+
+               
+                        
+
+               /*the element*/
+                .scanline1{
+                       animation-name: fall;
+                       animation-timing-function: ease-out;
+                       background-color:lime;
+                       top:-60;
+                       left:0%;
+                       transform:rotate(60deg);
+
+                       
+                       position:absolute;
+                       width:110%;
+                       height:10px;
+                       animation-iteration-count:infinite;
+                       animation-duration:5s;
+                       }
+               
+                .scanline2{
+                       animation-name: fall;
+                       animation-timing-function: ease-out;
+                       background-color:lime;
+                       top:-45;
+                       left:0%;
+                       transform:rotate(60deg);
+
+                       
+                       position:absolute;
+                       width:110%;
+                       height:5px;
+                       animation-iteration-count:infinite;
+                       animation-duration:5s;
+                       }
+
+
+
+               body{
+                                          
+              background-image:url('  https://static.vecteezy.com/system/resources/thumbnails/049/490/875/small_2x/dark-vintage-background-photo.jpg');
+              background-repeat:no-repeat;
+              background-attatchment:fixed;
+              background-size:cover;
+              background-position:center;
+                      }
+
+
+               #Notepad{
+
+                     background-image:url('https://img.freepik.com/free-vector/blank-white-notepaper-design_53876-118304.jpg?semt=ais_user_personalization&w=740&q=80');
+                      background-repeat:no-repeat;
+                      background-attatchment:fixed;
+                      background-size:cover;
+                      height:70%;
+                      width:30%;
+                      
+                      
+                      
+                      
+               }
+
+               #Folder{
+
+                      background-image:url('https://ibb.co/gMH1m5qG');
+                      background-repeat:no-repeat;
+                      background-attatchment:fixed;
+                      background-size:cover;
+                      height:70%;
+                      width:30%;
+                      z-index:10;
+
+                      left:50%;
+               
+               }
+               
+        </style>
+
+       <script src = ' '>
+              </script>
+       
+</head>
+<body>
+       
+       
+ 
+      
+       
+              
+       
+       <div class = 'scanline1'>
+             <p></p> 
+       </div>
+                     <div class = 'scanline2'>
+                            <p></p> 
+                     </div>
+
+
+
+              <div id="Notepad">
+              <form id='Notes' method='post' >  </form>
+
+              
+
+               </div>
+       <div id='Folder'>
+              
+              
+       </div>
+
+       
+      
+       
+</body>
+
+
+</html>
