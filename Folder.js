@@ -1,6 +1,6 @@
 const FOLDER = document.getElementById('Folder');
 
-function FPull(){
+const FPull = function(){
 
   console.log('button is up and running!');
   FOLDER.style.right = 20%
